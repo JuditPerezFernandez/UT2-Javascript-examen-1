@@ -12,3 +12,17 @@
  */
 
 console.log('ejercicio 1') //no quitar este console.log, empezar debajo el ejercicio
+
+let caracter = window.prompt('Introduce un caracter');
+
+if(caracter === '+'){
+    console.log('sumar');
+}else if( caracter === '-'){
+    console.log('restar');
+}else if(caracter === '*'){
+    console.log('multiplicar');
+}else if(caracter === '/'){
+    console.log('dividir');
+}else{
+    console.log('no conozco esa operación');
+}
