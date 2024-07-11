@@ -10,3 +10,14 @@
  */
 
 console.log('ejercicio 3') //no quitar este console.log, empezar debajo el ejercicio
+
+function operacion(numeroUno, numeroDos, tipo){
+    if(tipo ==='sumar'){
+        console.log('La suma de: ',numeroUno, '+',numeroDos,'=',numeroUno+numeroDos);
+    }else if(tipo === 'restar'){
+        console.log('La resta de:',numeroUno, '-',numeroDos,'=',numeroUno-numeroDos);
+    }else{
+        console.log('Operacion desconocida');
+    }
+}
+operacion(10,8,'restar');
