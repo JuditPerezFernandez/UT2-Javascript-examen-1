@@ -6,3 +6,9 @@
  */
 
 console.log('ejercicio 2') //no quitar este console.log, empezar debajo el ejercicio
+
+for(let numero=5; numero<=25;numero++){
+    if(numero%5===0){
+        console.log(numero);
+    }
+}
